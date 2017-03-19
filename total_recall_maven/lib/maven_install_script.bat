@@ -1,0 +1,6 @@
+mvn install:install-file -Dfile=c:\corenlp\stanford-corenlp-3.7.0.jar -DgroupId=edu.stanford.nlp -DartifactId=stanford-corenlp-3.7.0 -Dversion=3.7.0 -Dpackaging=jar
+mvn install:install-file -Dfile=c:\corenlp\stanford-corenlp-3.7.0-javadoc.jar -DgroupId=edu.stanford.nlp -DartifactId=stanford-corenlp-3.7.0-javadoc -Dversion=3.7.0 -Dpackaging=jar
+mvn install:install-file -Dfile=c:\corenlp\stanford-corenlp-3.7.0-models.jar -DgroupId=edu.stanford.nlp -DartifactId=stanford-corenlp-3.7.0-models -Dversion=3.7.0 -Dpackaging=jar
+mvn install:install-file -Dfile=c:\corenlp\stanford-corenlp-3.7.0-sources.jar -DgroupId=edu.stanford.nlp -DartifactId=stanford-corenlp-3.7.0-sources -Dversion=3.7.0 -Dpackaging=jar
+mvn install:install-file -Dfile=c:\corenlp\stanford-openie.jar -DgroupId=edu.stanford.nlp -DartifactId=stanford-openie -Dversion=3.7.0 -Dpackaging=jar
+mvn install:install-file -Dfile=c:\corenlp\stanford-openie-models.jar -DgroupId=edu.stanford.nlp -DartifactId=stanford-openie-models -Dversion=3.7.0 -Dpackaging=jar
